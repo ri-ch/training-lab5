@@ -29,7 +29,7 @@ namespace StateMachines
 
             Task.Run(() => consumer.Start(options, _config["QueueName"], cancel));
 
-            /*using (var client = options.CreateServiceClient<IAmazonSimpleNotificationService>())
+            using (var client = options.CreateServiceClient<IAmazonSimpleNotificationService>())
             {
                 Console.WriteLine("Creating orders");
 
@@ -44,7 +44,7 @@ namespace StateMachines
                 }
 
                 Console.WriteLine("Orders created");
-            }*/
+            }
 
             Console.WriteLine("Done");
             Console.ReadLine();
