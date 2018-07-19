@@ -1,0 +1,7 @@
+Apples,1
+Oranges,2
+Pears,1
+Biscuits,7
+Water,7
+Beef,2
+Chicken,4
